@@ -1,3 +1,38 @@
+var string = "";
+var buttons = document.getElementsByClassName("button");
+
+for( var i = 0; i< buttons.length; i++){
+    buttons[i].addEventListener('click', function(){
+        var value = this.getAttribute("data-value");
+        if(value == "="){
+            string = eval(string);
+            document.getElementById("display").textContent = string;
+        }
+        else if(value == "ac"){
+            string = "";
+            document.getElementById("display").textContent = string;
+        }
+        else if(value == "%"){
+            string = parseFloat(string)/100;
+            document.getElementById("display").textContent = string;
+        }
+        else if(value == "sign"){
+            string = parseFloat(string) * -1;
+            document.getElementById("display").textContent = string;
+        }
+        else{
+            string = string + value;
+            document.getElementById("display").textContent = string;
+        }
+
+    });
+}
+
+
+
+
+
+
 // "use strict";
 // var buttons = document.getElementsByClassName("button");
 // var display = document.getElementById("display");
@@ -55,32 +90,3 @@
 
 //  Logic - 2
 
-var string = "";
-var buttons = document.getElementsByClassName("button");
-
-for( var i = 0; i< buttons.length; i++){
-    buttons[i].addEventListener('click', function(){
-        var value = this.getAttribute("data-value");
-        if(value == "="){
-            string = eval(string);
-            document.getElementById("display").textContent = string;
-        }
-        else if(value == "ac"){
-            string = "";
-            document.getElementById("display").textContent = string;
-        }
-        else if(value == "%"){
-            string = parseFloat(string)/100;
-            document.getElementById("display").textContent = string;
-        }
-        else if(value == "sign"){
-            string = parseFloat(string) * -1;
-            document.getElementById("display").textContent = string;
-        }
-        else{
-            string = string + value;
-            document.getElementById("display").textContent = string;
-        }
-
-    });
-}

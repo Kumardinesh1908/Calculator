@@ -1,7 +1,9 @@
+/* Apply box-sizing to all elements */
 * {
     box-sizing: border-box;
 }
 
+/* Define CSS variables (custom properties) for reusability */
 :root {
     --border-radius: 5px;
     --border-width: 1px;
@@ -11,6 +13,7 @@
     --red: #c14444;
 }
 
+/* Style for the calculator container */
 #calculator {
     width: 45%;
     height: 80%;
@@ -24,6 +27,7 @@
     padding: 10px;
 }
 
+/* Style for the calculator's heading */
 #calculator h1 {
     background-color: black;
     color: white;
@@ -33,6 +37,7 @@
     margin-bottom: 10px;
 }
 
+/* Style for the display container */
 #display-container {
     font-size: 2.8rem;
     display: flex;
@@ -47,11 +52,13 @@
     margin-bottom: 10px;
 }
 
+/* Style for the text inside the display container */
 #display-container p {
     margin: 0.5rem;
     vertical-align: text-bottom;
 }
 
+/* Style for the buttons container */
 #buttons-container {
     width: 100%;
     height: 60%;
@@ -64,6 +71,7 @@
     justify-content: space-around;
 }
 
+/* Style for the calculator buttons */
 .button {
     width: 25%;
     height: 20%;
@@ -78,15 +86,18 @@
     transition-duration: 1s;
 }
 
+/* Style for button hover state */
 .button:hover {
     background-color: var(--orange);
 }
 
+/* Style for red-colored buttons */
 .red {
     background-color: var(--red);
     color: white;
 }
 
+/* Special style for the "0" button, which is wider */
 #button-zero {
     width: 50%;
 }
