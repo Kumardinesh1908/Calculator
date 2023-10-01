@@ -1,4 +1,4 @@
-# ToDo List App :keyboard:
+# Calculator :keyboard:
 The Calculator Web App is a simple web application that allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. It also provides functionality for clearing the input, changing the sign of the number, and calculating percentages.
 
 <img src="/calculater.png">
@@ -19,7 +19,6 @@ The Calculator Web App is a simple web application that allows users to perform 
 :clapper: **HTML** <br>
 :clapper: **CSS** <br>
 :clapper: **JavaScript** <br>
-:clapper: **LocalStorage** <br>
 
 
 ## Installation :notebook:
