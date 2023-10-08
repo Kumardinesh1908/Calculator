@@ -5,14 +5,14 @@ The Calculator Web App is a simple web application that allows users to perform 
 
 
 ## Features:fire:
-:tv: 1. Addition (+)<br>
-:tv: 2. Subtraction (-)<br>
-:tv: 3. Multiplication (*)<br>
-:tv: 4. Division (/)<br>
-:tv: 5. Percentage (%)<br>
-:tv: 6. Sign Change (+/-)<br>
-:tv: 7. Clear All (AC)<br>
-:tv: 8. Decimal Point (.)<br>
+:tv:  Addition (+)<br>
+:tv:  Subtraction (-)<br>
+:tv:  Multiplication (*)<br>
+:tv:  Division (/)<br>
+:tv:  Percentage (%)<br>
+:tv:  Sign Change (+/-)<br>
+:tv:  Clear All (AC)<br>
+:tv:  Decimal Point (.)<br>
 
   
 ## Tech Stack :computer:
@@ -22,11 +22,13 @@ The Calculator Web App is a simple web application that allows users to perform 
 
 
 ## Installation :notebook:
-To install the Todo List app, use git:
+To install the Calculator app, use git:
 ```
 git clone https://github.com/Kumardinesh1908/Calculator.git
 ```
 To deploy this project, simply open the index.html file in your browser.
 
 ## Live Demo
-Check out the live demo of the ToDo List App: https://kumardinesh1908.github.io/Calculator/
+```
+https://kumardinesh1908.github.io/Calculator/
+```
