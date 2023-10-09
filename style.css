@@ -15,10 +15,10 @@
 
 /* Style for the calculator container */
 #calculator {
-    width: 45%;
+    width: 50%;
     height: 80%;
-    min-width: 300px;
-    min-height: 400px;
+    min-width: 350px;
+    min-height: 500px;
     background-color: var(--light-grey);
     margin: auto;
     margin-top: 80px;
