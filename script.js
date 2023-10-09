@@ -55,6 +55,7 @@ for (var i = 0; i < buttons.length; i++) {
         } else if (value == "%") {
             // Calculate percentage of the current operand
             if (operator === null) {  // Check if the operator is null, indicating currently working with the first operand
+                operand1 = parseFloat(display.textContent);
                 operand1 = operand1 / 100;
                 display.textContent = operand1;
             }
